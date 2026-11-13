@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>民办大学考研友好指南：一志愿友好院校怎么挑</title>
+<meta name="description" content="面向民办本科背景考生的控制工程专硕择校指南：六条友好度判据、院校清单、避坑清单与备考节奏，附复试线分布图。">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%2316211F'/%3E%3Cpath d='M7 25V8h3l8 11V8h3v17h-3l-8-11v11z' fill='%23F1F2ED'/%3E%3C/svg%3E">
+<style>
+:root{
+  --paper:#F1F2ED; --card:#F9FAF6; --ink:#16211F; --ink2:#4C5955; --ink3:#7C8884;
+  --line:#D4D9CF; --pine:#1F5D4C; --clay:#B0432B; --amber:#A9741F; --slate:#46697D;
+  --maxw:1080px;
+  --sans:"Source Han Sans SC","Noto Sans SC","PingFang SC","Microsoft YaHei","Segoe UI",sans-serif;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--sans);font-size:16px;line-height:1.72;font-feature-settings:"tnum" 1;-webkit-font-smoothing:antialiased}
+.wrap{max-width:var(--maxw);margin:0 auto;padding:0 20px}
+h1,h2,h3{margin:0;line-height:1.25;letter-spacing:-.01em}
+p{margin:0}
+a{color:var(--pine);text-decoration:none}
+.num{font-variant-numeric:tabular-nums}
+
+.site-head{position:sticky;top:0;z-index:20;background:var(--paper);border-bottom:1px solid var(--line)}
+.site-head .bar{max-width:var(--maxw);margin:0 auto;padding:10px 20px;display:flex;align-items:center;gap:14px;flex-wrap:wrap}
+.brand{display:flex;align-items:center;gap:9px;font-weight:800;font-size:15px;letter-spacing:-.02em}
+.brand .sq{width:22px;height:22px;background:var(--ink);color:#EFF2EC;display:grid;place-items:center;font-size:12px;font-weight:800;border-radius:1px}
+.nav{display:flex;gap:2px;flex-wrap:wrap;margin-left:auto}
+.nav a{font-size:13.5px;color:var(--ink2);padding:8px 10px;border-radius:2px;min-height:38px;display:inline-flex;align-items:center}
+.nav a:hover{background:#E6E9E1;color:var(--ink)}
+.nav a.active{color:var(--ink);font-weight:600;background:#E6E9E1}
+
+.hero{padding:44px 0 0}
+.kicker-line{display:inline-flex;align-items:center;gap:8px;font-size:13px;color:var(--ink2)}
+.kicker-line i{width:18px;height:2px;background:var(--pine);display:block}
+h1{margin-top:16px;font-size:clamp(29px,8vw,52px);font-weight:800;letter-spacing:-.03em}
+h1 em{font-style:normal;color:var(--pine)}
+.lede{margin-top:16px;max-width:40em;color:var(--ink2);font-size:clamp(15px,3.6vw,17px)}
+.stats{display:grid;grid-template-columns:repeat(2,1fr);gap:1px;background:var(--line);border:1px solid var(--line);margin-top:30px}
+.stat{background:var(--paper);padding:16px}
+.stat .k{font-size:12.5px;color:var(--ink3)}
+.stat .v{font-size:clamp(21px,5.2vw,27px);font-weight:800;line-height:1.2}
+.stat .u{font-size:12.5px;color:var(--ink2)}
+
+section{padding:54px 0 0;scroll-margin-top:64px}
+.sec-head{display:flex;align-items:baseline;gap:14px;flex-wrap:wrap}
+.sec-head h2{font-size:clamp(22px,4.6vw,30px);font-weight:800}
+.sec-head .note{font-size:12.5px;color:var(--ink3)}
+.sec-intro{margin-top:12px;max-width:44em;color:var(--ink2);font-size:15px}
+
+.crit{margin-top:24px;display:grid;grid-template-columns:1fr;gap:12px}
+.crit-card{background:var(--card);border:1px solid var(--line);border-top:3px solid var(--pine);padding:16px}
+.crit-card h3{font-size:16px}
+.crit-card .q{font-size:12.5px;color:var(--ink3);margin-top:3px}
+.crit-card p{color:var(--ink2);font-size:14px;margin-top:7px}
+.crit-card .badge{display:inline-block;font-size:12px;padding:2px 7px;border-radius:2px;background:#E3EDE6;color:var(--pine);margin-top:9px}
+.verify{margin-top:18px;background:var(--ink);color:#EFF2EC;padding:18px}
+.verify h3{font-size:15.5px;color:#fff}
+.verify ul{margin:10px 0 0;padding-left:18px}
+.verify li{font-size:13.5px;color:#C6D0CB;margin:5px 0}
+.verify li b{color:#EFF2EC}
+
+.filters{display:flex;flex-wrap:wrap;gap:8px;margin-top:22px}
+.fbtn{font:inherit;font-size:13.5px;cursor:pointer;border:1px solid var(--line);background:var(--card);color:var(--ink);padding:8px 13px;border-radius:2px;min-height:40px}
+.fbtn:hover{border-color:var(--ink3)}
+.fbtn[aria-pressed="true"]{background:var(--ink);color:#EFF2EC;border-color:var(--ink)}
+.fbtn:focus-visible{outline:2px solid var(--pine);outline-offset:2px}
+.count{margin-top:14px;font-size:13px;color:var(--ink3)}
+.grid{display:grid;grid-template-columns:1fr;gap:12px;margin-top:12px}
+.school{background:var(--card);border:1px solid var(--line);padding:15px 15px 13px}
+.school .top{display:flex;align-items:baseline;gap:9px;flex-wrap:wrap}
+.school .nm{font-size:16.5px;font-weight:800}
+.school .lv{font-size:12px;color:var(--ink2);border:1px solid var(--line);padding:1px 6px;border-radius:2px}
+.school .fr{font-size:12px;padding:2px 7px;border-radius:2px;margin-left:auto;white-space:nowrap}
+.f-high{background:#E3EDE6;color:var(--pine)}
+.f-mid{background:#F2EADB;color:var(--amber)}
+.f-low{background:#F3E4E0;color:var(--clay)}
+.school .kv{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-top:12px;border-top:1px solid var(--line);padding-top:11px}
+.school .kv .k{font-size:11.5px;color:var(--ink3)}
+.school .kv .v{font-size:15px;font-weight:700}
+.school .nt{margin-top:10px;font-size:13px;color:var(--ink2)}
+
+.chart-card{margin-top:22px;border:1px solid var(--line);background:var(--card);padding:10px 8px 4px}
+#chart{width:100%;height:520px}
+.chart-note{margin-top:10px;padding:0 8px 8px;font-size:12.5px;color:var(--ink3);line-height:1.65}
+
+.pits{margin-top:22px;display:grid;grid-template-columns:1fr;gap:12px}
+.pit{background:var(--card);border:1px solid var(--line);border-left:3px solid var(--clay);padding:15px}
+.pit h3{font-size:15.5px}
+.pit p{color:var(--ink2);font-size:14px;margin-top:6px}
+.pit .how{font-size:13px;color:var(--pine);margin-top:8px}
+
+.tl{margin-top:26px}
+.tl-row{display:grid;grid-template-columns:62px 18px 1fr}
+.tl-time{font-size:12.5px;font-weight:700;color:var(--ink2);padding-top:2px}
+.tl-axis{display:flex;flex-direction:column;align-items:center}
+.tl-dot{width:9px;height:9px;border-radius:50%;background:var(--pine);margin-top:5px;flex:none}
+.tl-line{width:1px;background:#C3CBBE;flex:1;min-height:34px}
+.tl-body{padding:0 0 20px 12px}
+.tl-body h3{font-size:15px}
+.tl-body p{font-size:13.5px;color:var(--ink2);margin-top:4px}
+
+.prov{margin-top:22px;border-top:1px solid var(--ink);padding-top:16px}
+.prov p{font-size:13px;color:var(--ink2);max-width:48em}
+.prov p+p{margin-top:8px}
+.prov b{color:var(--ink)}
+footer{margin-top:36px;border-top:1px solid var(--line);padding:18px 0 40px}
+footer .f{display:flex;gap:16px;flex-wrap:wrap;font-size:12px;color:var(--ink3)}
+
+@media (min-width:768px){
+  .wrap{padding:0 32px}
+  .site-head .bar{padding:10px 32px}
+  .hero{padding-top:62px}
+  .stats{grid-template-columns:repeat(4,1fr)}
+  .crit{grid-template-columns:repeat(3,1fr)}
+  .grid{grid-template-columns:repeat(3,1fr)}
+  .pits{grid-template-columns:repeat(3,1fr)}
+  #chart{height:560px}
+}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
+@media print{.site-head,.filters{display:none}body{background:#fff}}
+</style>
+</head>
+<body>
+
+<header class="site-head">
+  <div class="bar">
+    <div class="brand"><span class="sq">研</span>民办考研友好指南</div>
+    <nav class="nav">
+      <a href="#criteria">判据</a>
+      <a href="#schools">院校清单</a>
+      <a href="#chart-sec">分数分布</a>
+      <a href="#pitfalls">避坑</a>
+      <a href="#timeline">备考节奏</a>
+      <a href="#about">数据说明</a>
+    </nav>
+  </div>
+</header>
+
+<div class="wrap">
+  <header class="hero">
+    <span class="kicker-line"><i></i>控制工程专硕 · 一志愿友好型院校</span>
+    <h1>先看这所学校<br>愿不愿意<em>保护一志愿</em></h1>
+    <p class="lede">
+      对民办本科背景的考生来说，择校的第一性问题不是"名校值不值"，而是"这所学校会不会把统考名额留给一志愿"。
+      下面把判据、院校清单、避坑点和备考节奏摊开，每一项都指向同一个目标：让一年的备考押在概率上，而不是押在运气上。
+    </p>
+    <div class="stats">
+      <div class="stat"><div class="k">判据条数</div><div class="v num">6</div><div class="u">从招生到复试全流程</div></div>
+      <div class="stat"><div class="k">收录院校</div><div class="v num">17</div><div class="u">以控制专硕复试线为准</div></div>
+      <div class="stat"><div class="k">国家线参照</div><div class="v num">264</div><div class="u">A 区 · B 区 254</div></div>
+      <div class="stat"><div class="k">厚道复录比</div><div class="v num">≤1.2</div><div class="u">进复试后的存活率</div></div>
+    </div>
+  </header>
+
+  <section id="criteria">
+    <div class="sec-head">
+      <h2>六条判据：一所学校友不友好</h2>
+      <span class="note">按重要性排序</span>
+    </div>
+    <p class="sec-intro">判据全部可以查证，不依赖任何"口碑"。查不到的，本身就是一条判断依据。</p>
+    <div class="crit">
+      <div class="crit-card">
+        <h3>一志愿保护</h3>
+        <div class="q">统考名额会不会被调剂挤占</div>
+        <p>有的学校先把一志愿考生晾着，等 985/211 落榜生来调剂再择优录取。识别方式：看往年拟录取名单里一志愿与调剂的人数比例，以及是否出现"一志愿复试合格仍被刷、调剂生反被录"。</p>
+        <span class="badge">权重最高</span>
+      </div>
+      <div class="crit-card">
+        <h3>复录比</h3>
+        <div class="q">进复试之后还剩多少人</div>
+        <p>1.1 到 1.2 属于厚道区间；1.5 以上意味着三分之一以上的人进复试只是陪跑；出现 10 进 3 这类比例时，复试线再低也不值得赌。</p>
+        <span class="badge">看三年趋势</span>
+      </div>
+      <div class="crit-card">
+        <h3>统考招生规模</h3>
+        <div class="q">留给失误的空间有多大</div>
+        <p>统考名额低于 10 人的方向，任何一次单科失手都几乎没有补救余地；30 人以上才谈得上多档容错。注意口径：简章写的是总计划，要扣掉推免才是统考名额。</p>
+      </div>
+      <div class="crit-card">
+        <h3>推免占比</h3>
+        <div class="q">名义招生和实际招生差多少</div>
+        <p>推免占一半，等于统考名额腰斩。总计划 40 人、推免 20 人，实际统考只剩 20 个位置，这与"招 40 人"是两种难度。</p>
+      </div>
+      <div class="crit-card">
+        <h3>是否压分</h3>
+        <div class="q">专业课给分偏高还是偏低</div>
+        <p>压分的典型表现是专业课普遍低分，把总分压到国家线以下，逼考生走调剂。查往年录取名单里的专业课成绩分布即可判断：均分明显低于同类院校的要警惕。</p>
+      </div>
+      <div class="crit-card">
+        <h3>分数线口径</h3>
+        <div class="q">这是哪一类线</div>
+        <p>国家线、自划线、B 区线是三种门槛。A 区国家线 264、B 区 254，一个数字之差就跨过一道录取门槛；有些学校官网写的"复试线"其实是学院自划的更高线。</p>
+      </div>
+    </div>
+    <div class="verify">
+      <h3>去哪里查证</h3>
+      <ul>
+        <li><b>研招网专业目录</b>：考试科目、拟招生人数、推免人数，唯一权威口径</li>
+        <li><b>院校研究生院官网</b>：复试录取办法、复试比例、成绩计算权重</li>
+        <li><b>往年拟录取名单</b>：最低录取分、一志愿与调剂构成、专业课成绩分布</li>
+        <li><b>调剂公告</b>：一志愿是否招满、是否连续多年开放调剂</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="schools">
+    <div class="sec-head">
+      <h2>院校清单</h2>
+      <span class="note">按友好度筛选</span>
+    </div>
+    <p class="sec-intro">友好度是本页依据复试线、招生规模、复录比三项数据做出的判断，不是官方评价，也不构成任何推荐。数字口径见页尾说明。</p>
+    <div class="filters" role="group" aria-label="按友好度筛选">
+      <button class="fbtn" data-f="all" aria-pressed="true">全部</button>
+      <button class="fbtn" data-f="high" aria-pressed="false">友好度：高</button>
+      <button class="fbtn" data-f="mid" aria-pressed="false">友好度：中</button>
+      <button class="fbtn" data-f="low" aria-pressed="false">友好度：低</button>
+    </div>
+    <p class="count" id="count"></p>
+    <div class="grid" id="grid"></div>
+  </section>
+
+  <section id="chart-sec">
+    <div class="sec-head">
+      <h2>分数分布</h2>
+      <span class="note">2026 控制专硕复试线，由高到低</span>
+    </div>
+    <p class="sec-intro">条形长度就是分数门槛。两条虚线分别标出 A 区国家线 264 与 B 区线 254，条形止于线左侧的院校，在分数上更容易够得着。</p>
+    <div class="chart-card">
+      <div id="chart" role="img" aria-label="各院校控制专硕复试线横向条形图"></div>
+      <p class="chart-note">仅收录有明确复试线数字的院校，未给出具体分数的院校不出现在图中。两条虚线自右向左分别是 A 区国家线 <b>264</b>（深绿）与 B 区线 <b>254</b>（褐）。条形颜色对应本页的友好度判断：绿为高、褐为中、红为低。</p>
+    </div>
+  </section>
+
+  <section id="pitfalls">
+    <div class="sec-head">
+      <h2>三类坑，先划掉</h2>
+      <span class="note">识别方法比结论更重要</span>
+    </div>
+    <div class="pits">
+      <div class="pit">
+        <h3>不保护一志愿</h3>
+        <p>把统考名额大量留给调剂来的 985/211 落榜生，一志愿考生反成陪跑。这是对本科背景最不友好的机制。</p>
+        <p class="how">怎么识别：看往年拟录取名单的一志愿/调剂构成，一志愿录取人数长期低于计划数的要警惕。</p>
+      </div>
+      <div class="pit">
+        <h3>压分</h3>
+        <p>专业课普遍给低分，把一志愿考生的总分压到国家线以下，逼人走调剂。</p>
+        <p class="how">怎么识别：比对同层次院校历年专业课均分；录取名单里专业课高分极少、总分集中在低位。</p>
+      </div>
+      <div class="pit">
+        <h3>复试刷人狠</h3>
+        <p>复试线看着低，实际进 100 录 30。分数门槛低，不等于录取概率高。</p>
+        <p class="how">怎么识别：只查复录比与录取最低分，不看复试线；连续三年复录比高于 1.5 的直接降级。</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="timeline">
+    <div class="sec-head">
+      <h2>备考节奏</h2>
+      <span class="note">按月推进，全年通用</span>
+    </div>
+    <p class="sec-intro">节拍比时长重要。每个阶段的产出应该是可检验的，而不是"学过一遍"。</p>
+    <div class="tl">
+      <div class="tl-row">
+        <div class="tl-time">3 月前</div>
+        <div class="tl-axis"><span class="tl-dot"></span><span class="tl-line"></span></div>
+        <div class="tl-body"><h3>定校与信息核对</h3><p>拉出 3 到 5 所目标院校，逐校核实考试科目（数一还是数二）、统考名额、推免占比、近三年复录比。这一步没做完，后面所有计划都是空的。</p></div>
+      </div>
+      <div class="tl-row">
+        <div class="tl-time">3—6 月</div>
+        <div class="tl-axis"><span class="tl-dot"></span><span class="tl-line"></span></div>
+        <div class="tl-body"><h3>公共课打底</h3><p>数学按考点过完整一轮，配基础题；英语解决长难句与核心词汇。专业课先把教材读顺，不做题海。</p></div>
+      </div>
+      <div class="tl-row">
+        <div class="tl-time">7—8 月</div>
+        <div class="tl-axis"><span class="tl-dot"></span><span class="tl-line"></span></div>
+        <div class="tl-body"><h3>强化与专业课第一轮</h3><p>数学进题型层，专业课按目标院校的参考书与往年题型逐章推进，开始整理自控原理的公式与典型解题路径。</p></div>
+      </div>
+      <div class="tl-row">
+        <div class="tl-time">9—10 月</div>
+        <div class="tl-axis"><span class="tl-dot"></span><span class="tl-line"></span></div>
+        <div class="tl-body"><h3>真题与报名</h3><p>数学真题按套限时；专业课做院校往年卷；同步完成网上报名与资格确认，别把时间花在流程上。</p></div>
+      </div>
+      <div class="tl-row">
+        <div class="tl-time">11 月</div>
+        <div class="tl-axis"><span class="tl-dot"></span><span class="tl-line"></span></div>
+        <div class="tl-body"><h3>政治冲刺与背诵</h3><p>政治转入背诵与套卷；专业课进入默写与错题回收。此时新增知识点应让位于巩固。</p></div>
+      </div>
+      <div class="tl-row">
+        <div class="tl-time">12 月</div>
+        <div class="tl-axis"><span class="tl-dot"></span></div>
+        <div class="tl-body"><h3>考场与状态</h3><p>按考试时段调整作息，考前一周只做两件事：把错题本过一遍，把状态调到与考试同一节拍。</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="sec-head">
+      <h2>数据说明</h2>
+      <span class="note">先看口径，再看数字</span>
+    </div>
+    <div class="prov">
+      <p><b>数据性质：</b>本页院校数据为二手汇总，未经逐条核验原始公告，口径存在不一致的可能——有的数字是总计划、有的是统考名额；有的是国家线、有的是学院自划线；年份也可能错配。</p>
+      <p><b>友好度判断：</b>由本页依据复试线、招生规模、复录比三项数据做出的整理性判断，属于编辑口径，不是官方评价，也不代表任何机构或院校的立场。</p>
+      <p><b>使用边界：</b>报考前请以研招网专业目录、目标院校研究生院官网及当年招生简章为唯一依据。图中未给出具体分数的院校，仅表示材料中缺失，不代表门槛低。</p>
+      <p><b>隐私：</b>本页为纯静态页面，不含统计脚本、不采集访问数据、不收集任何个人信息。</p>
+    </div>
+  </section>
+
+  <footer>
+    <div class="f">
+      <span>民办大学考研友好指南</span>
+      <span>控制工程专硕方向</span>
+      <span>整理：2026-11</span>
+    </div>
+  </footer>
+</div>
+
+<script src="https://fastly.jsdelivr.net/npm/echarts@5.5.1/dist/echarts.min.js" defer></script>
+<script>
+(function(){
+  var DATA = [
+    ["浙江工业大学","杭州","双非","264","236","1.08","high","国家线录取，推免 18；部分年份考数一英一，报名前必须确认科目"],
+    ["重庆邮电大学","重庆","双非","330","216","1.38","mid","录取均分 362.7；学硕线 264 但录取均分已到 335"],
+    ["杭州电子科技大学","杭州","双非","327","—","—","mid","长三角 IT 与电子方向；统考名额以当年目录为准"],
+    ["广东工业大学","广州","双非","355","80","—","low","控制 B+；学硕 264 线招不满，但需数一英一"],
+    ["中国计量大学","杭州","双非","264","—","—","high","控制学硕 264；杭州区位"],
+    ["重庆理工大学","重庆","双非","264","—","—","high","2025 年 260；兵工系背景，一志愿友好"],
+    ["昆明理工大学","昆明","双非","254","—","—","high","B 区工科；过线希望大，西南就业好使"],
+    ["桂林电子科技大学","桂林","双非","254","—","—","high","B 区；电子信息圈认可度较高，珠三角校友多"],
+    ["广西大学","南宁","211","254","—","—","high","B 区 211，过线即有机会"],
+    ["云南大学","昆明","211","254","—","—","high","B 区 211"],
+    ["成都信息工程大学","成都","双非","264","—","—","mid","国家线；成都落脚"],
+    ["燕山大学","秦皇岛","双非","264","—","—","mid","机械强校，控制常年国家线"],
+    ["安徽工业大学","马鞍山","双非","—","—","—","mid","具体线以当年公告为准"],
+    ["青岛科技大学","青岛","双非","—","—","—","mid","具体线以当年公告为准"],
+    ["重庆大学","重庆","985","—","—","—","low","控制 B+；复试对本科出身有筛选，需初试高分支撑"],
+    ["西南交通大学","成都","211","—","—","—","low","轨道交通与控制顶尖，竞争激烈"],
+    ["深圳大学","深圳","双非","345","—","—","low","仅学硕考数一，线 345，对数学基础要求高"]
+  ];
+  var FR = { high:"友好度高", mid:"友好度中", low:"友好度低" };
+  var grid = document.getElementById("grid");
+  var countEl = document.getElementById("count");
+  var current = "all";
+
+  function card(row){
+    var d = { name:row[0], city:row[1], level:row[2], line:row[3], admit:row[4], ratio:row[5], fr:row[6], note:row[7] };
+    return '<article class="school" data-fr="'+d.fr+'">'
+      + '<div class="top"><span class="nm">'+d.name+'</span><span class="lv">'+d.city+' · '+d.level+'</span>'
+      + '<span class="fr f-'+d.fr+'">'+FR[d.fr]+'</span></div>'
+      + '<div class="kv">'
+      + '<div><div class="k">2026 复试线</div><div class="v num">'+d.line+'</div></div>'
+      + '<div><div class="k">统考招生</div><div class="v num">'+d.admit+'</div></div>'
+      + '<div><div class="k">复录比</div><div class="v num">'+d.ratio+'</div></div>'
+      + '</div>'
+      + '<p class="nt">'+d.note+'</p>'
+      + '</article>';
+  }
+
+  function render(){
+    var rows = DATA.filter(function(r){ return current === "all" || r[6] === current; });
+    grid.innerHTML = rows.map(card).join("");
+    countEl.textContent = "当前显示 " + rows.length + " 所（共 " + DATA.length + " 所）";
+  }
+
+  document.querySelectorAll(".fbtn").forEach(function(btn){
+    btn.addEventListener("click", function(){
+      current = btn.getAttribute("data-f");
+      document.querySelectorAll(".fbtn").forEach(function(b){
+        b.setAttribute("aria-pressed", b === btn ? "true" : "false");
+      });
+      render();
+    });
+  });
+  render();
+
+  window.addEventListener("load", function(){
+    if (!window.echarts) return;
+    var bars = DATA.filter(function(r){ return /^\d+$/.test(r[3]); })
+      .map(function(r){ return { name:r[0], value:parseInt(r[3],10), fr:r[6] }; })
+      .sort(function(a,b){ return a.value - b.value; });
+    var COLORS = { high:"#1F5D4C", mid:"#A9741F", low:"#B0432B" };
+    var chart = echarts.init(document.getElementById("chart"));
+    chart.setOption({
+      backgroundColor:"transparent",
+      textStyle:{ fontFamily:'"Source Han Sans SC","Noto Sans SC","PingFang SC","Microsoft YaHei",sans-serif', color:"#4C5955" },
+      grid:{ left:8, right:64, top:16, bottom:34, containLabel:true },
+      tooltip:{
+        trigger:"axis", axisPointer:{ type:"shadow" },
+        backgroundColor:"#16211F", borderWidth:0, padding:[8,11],
+        textStyle:{ color:"#EFF2EC", fontSize:12.5 },
+        formatter:function(ps){ var p=ps[0]; return "<b>"+p.name+"</b><br/>2026 专硕复试线 "+p.value+" 分"; }
+      },
+      xAxis:{ type:"value", min:240, max:370, name:"复试线", nameGap:24,
+        nameTextStyle:{ fontSize:11.5, color:"#7C8884" },
+        axisLine:{ lineStyle:{ color:"#C9CFC4" } },
+        axisLabel:{ fontSize:11, color:"#7C8884" },
+        splitLine:{ lineStyle:{ color:"#E3E7DF" } } },
+      yAxis:{ type:"category", data:bars.map(function(b){ return b.name; }),
+        axisLine:{ lineStyle:{ color:"#C9CFC4" } },
+        axisTick:{ show:false },
+        axisLabel:{ fontSize:11.5, color:"#4C5955" } },
+      series:[{
+        type:"bar", barWidth:"58%",
+        data: bars.map(function(b){ return { value:b.value, itemStyle:{ color: COLORS[b.fr] } }; }),
+        label:{ show:true, position:"right", fontSize:11, color:"#4C5955", formatter:"{c}" },
+        markLine:{ silent:true, symbol:"none",
+          label:{ show:false },
+          data:[
+            { xAxis:264, lineStyle:{ color:"#1F5D4C", type:"dashed", width:1.4 } },
+            { xAxis:254, lineStyle:{ color:"#A9741F", type:"dashed", width:1.4 } }
+          ] }
+      }]
+    });
+    window.addEventListener("resize", function(){ chart.resize(); });
+  });
+
+  var links = Array.prototype.slice.call(document.querySelectorAll(".nav a"));
+  var secs = links.map(function(a){ return document.querySelector(a.getAttribute("href")); }).filter(Boolean);
+  if ("IntersectionObserver" in window && secs.length){
+    var io = new IntersectionObserver(function(entries){
+      entries.forEach(function(e){
+        if (!e.isIntersecting) return;
+        links.forEach(function(a){ a.classList.toggle("active", a.getAttribute("href") === "#" + e.target.id); });
+      });
+    }, { rootMargin:"-70px 0px -58% 0px" });
+    secs.forEach(function(s){ io.observe(s); });
+  }
+})();
+</script>
+</body>
+</html>
